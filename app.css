@@ -19,8 +19,8 @@
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    -webkit-animation-duration: 15s;
-    animation-duration: 15s;
+    -webkit-animation-duration: 120s;
+    animation-duration: 120s;
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     margin-top: -20px;
@@ -30,5 +30,5 @@
 p{
     text-align: center;
     font-size: 20px;
-    margin-top: 50px;
+    margin-top: 650px;
 }
