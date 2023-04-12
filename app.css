@@ -10,8 +10,8 @@
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     background-color: red;
     -webkit-animation-name: colorChanger;
     animation-name: colorChanger;
@@ -30,5 +30,5 @@
 p{
     text-align: center;
     font-size: 20px;
-    margin-top: 650px;
+    margin-top: 600px;
 }
