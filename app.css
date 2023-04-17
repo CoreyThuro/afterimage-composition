@@ -19,8 +19,8 @@
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    -webkit-animation-duration: 120s;
-    animation-duration: 120s;
+    -webkit-animation-duration: 12000s;
+    animation-duration: 12000s;
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     margin-top: -20px;
