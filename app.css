@@ -32,3 +32,8 @@ p{
     font-size: 20px;
     margin-top: 430px;
 }
+
+a{
+    text-decoration: none;
+    color: blue;
+}
