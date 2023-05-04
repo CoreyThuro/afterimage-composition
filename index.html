@@ -10,9 +10,10 @@
     </head>
     <body>
         <a href="instructions.html">Instructions & Explanation<a/>
+        <button onclick="playSineWave()">Allow audio</button>
         <div id="shape" />
         <p id="logic">This sentence is true until exactly the moment the square is no longer colored red.</p>
-        <button onclick="playSineWave()">Allow audio</button>
+
         <script defer>
             let audioContext = new AudioContext();
             let oscillator;
