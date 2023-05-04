@@ -13,17 +13,17 @@
         <div id="shape" />
         <p id="logic">This sentence is true until exactly the moment the square is no longer colored red.</p>
         <button onclick="playSineWave()">Allow audio</button>
-        <script src="" async defer>
+        <script>
             let audioContext = new AudioContext();
             let oscillator;
 
-    function playSineWave() {
-      oscillator = audioContext.createOscillator();
-      oscillator.type = 'sine';
-      oscillator.frequency.value = 240; 
-      oscillator.connect(audioContext.destination);
-      oscillator.start();
-    }
+            function playSineWave() {
+              oscillator = audioContext.createOscillator();
+              oscillator.type = 'sine';
+              oscillator.frequency.value = 240; 
+              oscillator.connect(audioContext.destination);
+              oscillator.start();
+            }
 </script>
     </body>
 </html>
