@@ -13,7 +13,7 @@
         <div id="shape" />
         <p id="logic">This sentence is true until exactly the moment the square is no longer colored red.</p>
         <button onclick="playSineWave()">Allow audio</button>
-        <script>
+        <script defer>
             let audioContext = new AudioContext();
             let oscillator;
 
@@ -24,6 +24,6 @@
               oscillator.connect(audioContext.destination);
               oscillator.start();
             }
-</script>
+    </script>
     </body>
 </html>
