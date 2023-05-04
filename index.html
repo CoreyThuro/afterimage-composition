@@ -20,7 +20,7 @@
             function playSineWave() {
               oscillator = audioContext.createOscillator();
               oscillator.type = 'sine';
-              oscillator.frequency.value = 240; 
+              oscillator.frequency.value = 140; 
               gainNode.gain.setValueAtTime(0.2, audioContext.currentTime);
 
 // Connect the oscillator to the gain node, and the gain node to the destination
