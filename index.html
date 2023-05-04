@@ -16,11 +16,16 @@
         <script defer>
             let audioContext = new AudioContext();
             let oscillator;
-
+            const gainNode = audioContext.createGain();
             function playSineWave() {
               oscillator = audioContext.createOscillator();
               oscillator.type = 'sine';
               oscillator.frequency.value = 240; 
+              gainNode.gain.setValueAtTime(0.2, audioContext.currentTime);
+
+// Connect the oscillator to the gain node, and the gain node to the destination
+              oscillator.connect(gainNode);
+              gainNode.connect(audioContext.destination);
               oscillator.connect(audioContext.destination);
               oscillator.start();
             }
