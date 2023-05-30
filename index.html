@@ -12,27 +12,9 @@
       
         <a href="instructions.html">Instructions & Explanation<a/>
    
-     
+        <p id="logic">Afterimage Composition</p>
         <div id="shape" />
-        <p id="logic">This sentence is true until exactly the moment the square is no longer colored red.</p>
+       
         
-
-        <script defer>
-            let audioContext = new AudioContext();
-            let oscillator;
-            const gainNode = audioContext.createGain();
-            function playSineWave() {
-              oscillator = audioContext.createOscillator();
-              oscillator.type = 'sine';
-              oscillator.frequency.value = 140; 
-              gainNode.gain.setValueAtTime(0.2, audioContext.currentTime);
-
-// Connect the oscillator to the gain node, and the gain node to the destination
-              oscillator.connect(gainNode);
-              gainNode.connect(audioContext.destination);
-              oscillator.connect(audioContext.destination);
-              oscillator.start();
-            }
-    </script>
     </body>
 </html>
