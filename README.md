@@ -6,7 +6,7 @@ An element of the system is the perceived color of the square. Staring at the sq
 
 A theorem is a sequence of elements, that is, a series of perceptions of the color of the square which have not yet given rise to an afterimage. 
 
-A proof is a perception that the color of the square has come to be permeated by the color of the afterimage [1]. 
+A proof is a perception that the color of the square has come to be permeated by the color of the afterimage.
 
 
 
