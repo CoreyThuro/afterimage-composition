@@ -6,7 +6,7 @@ Staring at the square, a visual afterimage begins to form. This situation elicit
 
 An element of the system is the perceived color of the square. The perceived color of the afterimage is not an element of the system. 
 
-A theorem is a sequence of elements, that is, a series of perceptions of the color of the square which have not yet given rise to an afterimage. 
+A theorem is a sequence of elements, that is, a series of perceptions of the color of the square which do not include perceptions of (the color of) the afterimage. 
 
 A proof of a theorem is a perception that the color of the square has come to be permeated by the color of the afterimage.
 
