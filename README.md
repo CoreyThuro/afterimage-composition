@@ -1,6 +1,6 @@
 
  
-Afterimage Composition System
+Afterimage Proof System
 
 After some time of staring at the square, a visual negative afterimage begins to form. The color of the negative afterimage starts as blueish. This can be confirmed by moving one’s vision to the margins.  
 
