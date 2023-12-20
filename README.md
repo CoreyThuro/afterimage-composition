@@ -1,4 +1,4 @@
-﻿# afterimage-composition
+
  
 Afterimage Composition System
 
